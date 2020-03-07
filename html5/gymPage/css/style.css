@@ -1,0 +1,59 @@
+body{
+    background: url('../css/static/weights.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #3d094b;
+    /* to make a navigation bar, makes solid bar */
+    overflow: hidden;
+    font-family: 'Caveat', cursive;
+}
+
+li {
+    float: left;
+    border: 10px;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #56084a;
+}
+
+.righty {
+    float: right;
+}
+
+.active {
+    background-color: #691744;
+}
+
+.namebrand {
+    color: 	#ae2a2a;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.information {
+    border: #891935 solid 10px;
+    border-radius: 20px;
+    margin-top: 200px;
+    width: 350px;
+    color: 	#ae2a2a;
+    text-align: center;
+    opacity: .85;
+    font-family: 'Trade Winds', cursive;
+    font-size: 1.5em;
+
+}

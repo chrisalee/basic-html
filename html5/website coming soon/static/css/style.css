@@ -1,0 +1,32 @@
+/* body{
+    background-color: #2e1f00;
+    background-image: url("https://www.transparenttextures.com/patterns/tactile-noise-light.png");
+} */
+
+body{
+    background: url('../images/IMG_1247.JPG') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    padding: 25px;
+    /* em is a relative unit that will try to remain the same size no matter the screen size */
+    font-size: 5em;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+    border: 3px solid black;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* opacity: .7; */
+    background-color: #89bbca;
+    font-family: 'Viga', sans-serif;
+    
+}
+
+p{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Cormorant Unicase', serif;
+}

@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.big {
+    height: 400px;
+    background: linear-gradient(to right, #8f0370, #ffffff);
+    color: #33ff00;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+.big1 {
+    height: 400px;
+    background: linear-gradient(#8f0370, #ff0000, #ffffff);
+    font-family: 'Yeon Sung', cursive;
+}
+.big2 {
+    height: 400px;
+    background: linear-gradient(to left, #8f0370, #ffffff);
+}
+.big3 {
+    height: 400px;
+    background: linear-gradient(to right, #ffffff, #8f0370, #ff0000, #330202);
+    font-family: 'Enriqueta', serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.circle {
+    height: 400px;
+    background: radial-gradient(red, white);
+}
+.circle1 {
+    height: 400px;
+    background: radial-gradient(white, grey);
+}
+
+/* for the check box, click it and something happens */
+input[type='checkbox']:checked  + label{
+    text-decoration: line-through;
+}

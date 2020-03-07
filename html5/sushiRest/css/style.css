@@ -1,0 +1,49 @@
+body{
+    background: #db7373;
+    height: 100%;
+}
+
+video{
+    position: fixed;
+    /* how to keep it centered */
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -50%;
+    /* this allows to be in the background */
+    z-index: 1;
+    /* height: 200%; */
+}
+
+div{
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 720px;
+    margin-top: 80px;
+}
+
+h1{
+    margin-bottom: 35px;
+    color: #444141;
+    font-family: 'Trade Winds', cursive;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Cairo', sans-serif;
+    color: #ffffff;
+    background-color: #9b9999;
+    opacity: .7;
+}
+
+a{
+    display: inline-block;
+    padding: 12px 48px;
+    border: 4px solid #700848;
+    text-decoration: none;
+    font-size: 23px;
+    color: #700848;
+    background-color: #eff3cd;
+}

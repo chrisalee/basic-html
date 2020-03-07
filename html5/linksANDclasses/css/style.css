@@ -1,0 +1,64 @@
+body {
+    background-color: #9b9b9b;
+    height: 100px;
+}
+
+a {
+    font-size: 30px;
+}
+
+/* order : link, visited, hover, active */
+
+/* a:link {
+    color: red;
+}
+a:visited {
+    color: orange;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: chartreuse;
+} */
+
+a:link, a:visited {
+    background-color: hotpink;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: red;
+}
+a:active {
+    background-color: green;
+}
+
+.black {
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    height: 100px;
+}
+
+.blue {
+    background-color: blue;
+    height: 100px;
+}
+
+.orange {
+    background-color: orange;
+    height: 100px;
+}
+
+#red {
+    background-color: red;
+}
